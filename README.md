@@ -11,4 +11,4 @@ This program is very practical and could easily be adapted into an actual colleg
 
 
 ### Specifics
-This program takes full advantage of abstract classes, ArrayLists, inheritance, and encapsulation. The two child classes, OnlineCourse and TraditionalClass, inherit most of their functions from the parent class, Course. Once the excel sheet is read in, it is seperated using the tab delimitered sequence.
+This program takes full advantage of abstract classes, ArrayLists, inheritance, and encapsulation. The two child classes, OnlineCourse and TraditionalClass, inherit most of their functions from the parent class, Course. Once the excel sheet is read in, it is seperated using the tab delimitered sequence. The data is then read into its respective class ArrayList, and stored correctly. When the user searches for a course, the data is pulled from the ArrayList and displayed to the screen. When the user registers for a class, they enter the CRN. That CRN is then added to the schedule. Finally, the user can display their current schedule by choosing choice three. 
