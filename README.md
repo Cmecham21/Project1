@@ -18,7 +18,7 @@ This program takes full advantage of abstract classes, ArrayLists, inheritance, 
                     String [] currCourse = (line.split("\t"));
 
 
-The data is then read into its respective class ArrayList, and stored correctly. 
+The data is then read into its respective class ArrayList, and stored correctly. For example:
 
                             if(currCourse.length == TRADITIONAL){
                             
@@ -71,7 +71,7 @@ The data is then read into its respective class ArrayList, and stored correctly.
 
 
 
-When the user searches for a course, the data is pulled from the ArrayList and displayed to the screen. 
+When the user searches for a course, the data is pulled from the ArrayList and displayed to the screen. For example:
 
     if (choice == 1){
                 System.out.println("Please search for the class you want. Ex: CS 231: ");
@@ -95,7 +95,7 @@ When the user searches for a course, the data is pulled from the ArrayList and d
 
 
 
-When the user registers for a class, they enter the CRN. That CRN is then added to the schedule. 
+When the user registers for a class, they enter the CRN. That CRN is then added to the schedule. For example:
 
 else if (choice == 2){
                 System.out.println("Please enter the CRN number for the class you wish to add: ");
@@ -142,7 +142,7 @@ else if (choice == 2){
             }
 
 
-Finally, the user can display their current schedule by choosing choice three. 
+The user can display their current schedule by choosing choice three. For example:
 
       else if(choice == 3){
                 for (Course l: actualSchedule){
@@ -150,3 +150,10 @@ Finally, the user can display their current schedule by choosing choice three.
                 }
                 System.out.println();
             }
+
+Finally, the user can close the program by choosing choice four. For example: 
+
+            else if(choice == 4){
+                System.out.println("The program has now ended. \nThank You!");
+                        
+                        schedule = true;
